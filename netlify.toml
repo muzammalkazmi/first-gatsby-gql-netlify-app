@@ -1,0 +1,7 @@
+[build]
+  command = "yarn build"
+  functions = "functions"
+  publish = "public"
+
+[context.production]
+  environment = { FAUNADB_ADMIN_SECRET = "fnAEhyyAAzACS3lxxjF7VE_y1v8a2k08CvT5yG7b"}
